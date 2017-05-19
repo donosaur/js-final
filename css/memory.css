@@ -1,10 +1,8 @@
 body {
     background-color: $white;
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-    font-family: $abel;
-    color: $red;
 }
-
+/*Game Board*/
 .container {
 	width:440px;
 	height: 330px;
@@ -14,6 +12,7 @@ body {
 	top: calc(50% - 165px);
 	perspective: 500px;
 }
+
 .box {
 	width: 100px;
 	height: 100px;
@@ -94,5 +93,3 @@ body {
 	/*background-color: white;*/
 	background-image: url(images/img-12.gif);
 }
-
-$bgPattern: "https://www.transparenttextures.com/patterns/inspiration-geometry.png";

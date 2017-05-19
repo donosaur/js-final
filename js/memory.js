@@ -46,22 +46,15 @@ $(".box").click(function() {
 	$(this).toggleClass("flip");
 });
 
-$(".back").each(function(i) {
-	$(this).addClass(tile_array[i]);
-});
-
-$(".back").each(function() {
-	var r = random(tile_array.length);
-	$(this).addClass(tile_array[r]);
-});
-
 // assign a tile class to each back
 $(".back").each(function(i) {
 	$(this).addClass(tile_array[i]);
 	$(this).parent().attr("data-name", tile_array[i]);
 });
 
-console.log(tile_array);
+console.log("card array: " + card_array);
+console.log("temp array: " + temp_array);
+console.log("tile array: " + tile_array);
 
 // GAME LOGIC
 var firstPick = undefined;
