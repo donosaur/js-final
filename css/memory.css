@@ -5,11 +5,10 @@ body {
 /*Game Board*/
 .container {
 	width:440px;
-	height: 330px;
-	border: 0px solid silver;
+	height: 1000px;
 	position: absolute;
 	left: calc(50% - 220px);
-	top: calc(50% - 165px);
+	top: calc(50% - 220px);
 	perspective: 500px;
 }
 
@@ -44,6 +43,9 @@ body {
 .back {
 	transform: rotateY(180deg);
 }
+
+
+/*CARDS*/
 
 .card-1 {
 	/*background-color: grey;*/
